@@ -3,8 +3,6 @@ version: '2'
 services:
   nginx:
     image: artemovnavaleri/demo120920
-    ports:
-      - "80:4321"
     environment:
       VIRTUAL_HOST: artemovnavaleri.tech
       LETSENCRYPT_HOST: artemovnavaleri.tech
